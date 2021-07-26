@@ -1,0 +1,67 @@
+#headingtext{
+    text-align: center;
+    text-shadow: 5px 5px 10px;
+    color:blueviolet;
+    }
+#remarks{
+    text-align: center;
+}
+.main p{
+    text-align:center;
+    margin-left: 200px;
+}
+li{
+    text-align:center;
+   }
+#navigationbar{
+    position:relative;
+    margin:0;
+    padding: 0;
+    height: 30px;
+    width: 90%;
+    }
+#navigationbar ul{
+    position: absolute;
+    margin:0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    background-color: bisque;
+    overflow: visible;
+    }
+#navigationbar ul > li{
+    display: block;
+    float: left;
+    height: auto;
+    width: 120px;
+    overflow: visible;
+    }
+#navigationbar li > a{
+    display: block;
+    padding: 0 0 0 10px;
+    height: 100%;
+    width: 100%;
+    border-right: 1px black solid;
+    line-height: 30px;
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: #eeeeee;
+    color: #5d5636;
+    }
+#sidebar{
+    height: auto;
+    width: 200px;
+    color: blue;
+    background-color:olivedrab;
+    position: fixed;
+    left: 0;
+    padding-top: 10px;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+#sidebar div {
+    padding: 8px;
+    font-size: 16px;
+    display: block;
+}
