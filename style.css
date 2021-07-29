@@ -7,8 +7,9 @@
     text-align: center;
 }
 .main p{
-    text-align:center;
-    margin-left: 200px;
+    text-align:left;
+    margin-left: 205px;
+    margin-right: 205px;
 }
 li{
     text-align:center;
@@ -16,9 +17,11 @@ li{
 #navigationbar{
     position:relative;
     margin:0;
+    left: 200px;
     padding: 0;
     height: 30px;
     width: 90%;
+    overflow-x: hidden;
     }
 #navigationbar ul{
     position: absolute;
@@ -49,19 +52,32 @@ li{
     background-color: #eeeeee;
     color: #5d5636;
     }
-#sidebar{
+#sidebarleft{
     height: auto;
     width: 200px;
     color: blue;
     background-color:olivedrab;
     position: fixed;
-    left: 0;
+    left: 10;
+    border-radius: 10px 30px;
     padding-top: 10px;
     margin-right: 200px;
     margin-top: 10px;
 }
-#sidebar div {
+#sidebarleft div {
     padding: 8px;
     font-size: 16px;
     display: block;
+}
+#sidebarright{
+    height: auto;
+    width: 200px;
+    color: blue;
+    background-color:olivedrab;
+    position:fixed;
+    right: 0;
+    border-radius: 10px 30px;
+    padding-top: 10px;
+    margin-left: 200px;
+    margin-top: 10px;
 }
