@@ -1,83 +1,27 @@
-#headingtext{
-    text-align: center;
-    text-shadow: 5px 5px 10px;
-    color:blueviolet;
-    }
-#remarks{
-    text-align: center;
-}
-.main p{
-    text-align:left;
-    margin-left: 205px;
-    margin-right: 205px;
-}
-li{
-    text-align:center;
-   }
 #navigationbar{
-    position:relative;
-    margin:0;
-    left: 200px;
-    padding: 0;
-    height: 30px;
-    width: 90%;
-    overflow-x: hidden;
-    }
-#navigationbar ul{
-    position: absolute;
-    margin:0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
+    overflow: hidden;
+    background-color: #dee0c9;
+    width: 80%;
+}
+#navigationbar > ul {
     list-style-type: none;
-    background-color: bisque;
-    overflow: visible;
-    }
-#navigationbar ul > li{
-    display: block;
-    float: left;
-    height: auto;
-    width: 120px;
-    overflow: visible;
-    }
-#navigationbar li > a{
-    display: block;
-    padding: 0 0 0 10px;
-    height: 100%;
-    width: 100%;
-    border-right: 1px black solid;
-    line-height: 30px;
-    font-family: sans-serif;
-    text-decoration: none;
-    background-color: #eeeeee;
-    color: #5d5636;
-    }
-#sidebarleft{
-    height: auto;
-    width: 200px;
-    color: blue;
-    background-color:olivedrab;
-    position: fixed;
-    left: 10;
-    border-radius: 10px 30px;
-    padding-top: 10px;
-    margin-right: 200px;
-    margin-top: 10px;
+    padding: 0;
+    margin: 0;    
 }
-#sidebarleft div {
-    padding: 8px;
-    font-size: 16px;
-    display: block;
+#navigationbar li{
+    float:left;
+    padding: 15px 35px;
+    border-radius: 50% 50%;
 }
-#sidebarright{
-    height: auto;
-    width: 200px;
-    color: blue;
-    background-color:olivedrab;
-    position:fixed;
-    right: 0;
-    border-radius: 10px 30px;
-    padding-top: 10px;
-    margin-left: 200px;
-    margin-top: 10px;
+#navigationbar a{
+    color:black;
+    text-align: center;
+    text-decoration:none;
+    font-size:20px;
+}
+#navigationbar > ul > li:hover{
+    background-color:lightgreen;
+}
+#navigationbar a .active{
+    background-color:green;
 }
