@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="style.css">
     <style>
       .headingsection{
-          background-color: rgb(153, 109, 109);
+          background-color: rgb(144, 134, 168);
       }
       .multicolortext {
-        background-image: linear-gradient(to right, #FF9933, #FFFFFF, green);
+        background-image: linear-gradient(to right, #FF9933,white, white, green);
         -webkit-background-clip: text;
         -moz-background-clip: text;
         background-clip: text;
@@ -21,6 +21,16 @@
       }
       .headingremarks{
           text-align: center;
+      }
+      .main > p{
+        font-family: Verdana, Tahoma, sans-serif;
+        font-style: oblique;
+        font-size: 22px;
+      }
+      .main #intropara{
+        border:2px transparent lightgray;
+        width:80%;
+        box-shadow:8px 15px ghostwhite;
       }
     </style>
   </head>
@@ -47,15 +57,14 @@
         </ul>
     </nav>
     <div class="main">
-        <p style="clear:left">Being Multi-Disciplinary in nature, Instrumentation Engineering is the  most happening field 
+        <p id="intropara">Being Multi-Disciplinary in nature, Instrumentation Engineering is the  most happening field 
             of engineering in the world now & the primary goal of Instrumentation Engineering is 
             <em>Automation.</em> The art and science of measurement and  control of these process 
             parameters through proper designing and configuring of  automated systems in 
             electrical, pneumatic  and mechanical domains within a production or 
-            manufacturing area is known as <em>Instrumentation Engineering</em>. 
-        </p>
-        
-        <p>Instrumentation Engineering majorly contributes in  improving the productivity,
+            manufacturing area is known as <em>Instrumentation Engineering</em>.<br> 
+            <br>    
+            Instrumentation Engineering majorly contributes in  improving the productivity,
             optimisation, stability, reliability, safety and continuity of industries.
             The key devices/Instruments & technologies used to attain these are
             Sensors  Transducers  Transmitters, Valves, Actuators, Solenoids, Positioners,
@@ -64,6 +73,24 @@
             Robotics, Distributed Control System (DCS), Supervisory Control and Data Acquisition
             (SCADA) and Data Science.
         </p>
+    </div>
+    <div id="firstsidebar">
+      <li>Upcoming Events</li>
+    </div>
+    <div class="scrtext">
+      <ul id="firstscrul">
+        <li>First Text in Events</li>
+        <li>Second Text in Events</li>
+      </ul>
+    </div>
+    <div id="secondsidebar">
+      <li>Student's Corner</li>
+    </div>
+    <div class="scrtext">
+      <ul id="secondscrul">
+        <li>First Text in Students</li>
+        <li>Second Text in Students</li>
+      </ul>
     </div>
   </body>
 </html>
