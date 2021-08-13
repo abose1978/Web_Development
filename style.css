@@ -25,3 +25,61 @@
 #navigationbar a .active{
     background-color:green;
 }
+#firstsidebar{
+    position:absolute;
+    right: 20px;
+    padding: 0;
+    margin: 0;
+    top: 160px;
+    width: 18%;
+    background-color: #dee0c9;
+    border:2px transparent lightgray;
+}
+#firstsidebar > li{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 25px;
+    list-style-type: none;
+}
+#secondsidebar{
+    position:absolute;
+    right: 20px;
+    padding: 0;
+    margin: 0;
+    top: 400px;
+    width: 18%;
+    background-color: #dee0c9;
+    border:2px transparent lightgray;
+}
+#secondsidebar > li{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 25px;
+    list-style-type: none;
+}
+.scrtext #firstscrul{
+    color:blue; 
+    list-style-type: none;
+    position:absolute;
+    right: 20px;
+    padding: 0;
+    margin: 0;
+    top: 250px;
+    width: 18%;
+    border:2px transparent lightgray;
+    box-shadow: 8px 15px ghostwhite;
+}
+.scrtext #secondscrul{
+    color:blue; 
+    list-style-type: none;
+    position:absolute;
+    right: 20px;
+    padding: 0;
+    margin: 0;
+    top: 500px;
+    width: 18%;
+    border:2px transparent lightgray;
+    box-shadow: 8px 15px ghostwhite;
+}
